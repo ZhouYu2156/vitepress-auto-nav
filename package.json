@@ -1,0 +1,48 @@
+{
+  "name": "vitepress-auto-nav",
+  "version": "1.2.0",
+  "description": "Auto-generate navigation and sidebar configuration for VitePress",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "tsc",
+    "preview": "vitepress preview src",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vitepress",
+    "vitepress-utils",
+    "vitepress-sidebar",
+    "vitepress-nav",
+    "auto-sidebar",
+    "auto-nav"
+  ],
+  "author": {
+    "name": "Zhou Yu",
+    "email": "1043744584@qq.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZhouYu2156/vitepress-auto-nav"
+  },
+  "bugs": {
+    "url": "https://github.com/ZhouYu2156/vitepress-auto-nav/issues"
+  },
+  "homepage": "https://github.com/ZhouYu2156/vitepress-auto-nav#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vitepress-auto-nav": "^1.2.0",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.11"
+  }
+}
